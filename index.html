@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#education" onclick="toggleMenu();">Education</a></li> 
+            <li><a href="#project" onclick="toggleMenu();">Projects</a></li>
+            <li><a href="#training" onclick="toggleMenu();">Trainings &amp; Certificates</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br> <span>Naqi Manzar</span></h2>
+          
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+        
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+       <img src="images/myPic2.jpeg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i?</h3>
+                <h2>I'm <b>Naqi Manzar</b>, a fresher, learning to develope websites.</h2>
+                <p>I have completed my BTech degree in Electronics &amp; Communication Engineering from Aliah University, Kolkata in 2020. Currently I'm looking for job where I can utilize my skills. I am working with HTML5, CSS3, JavaScript and Bootstrape.
+                I'm also familiar with C/C++ and Core Java.</p><br>
+                <p>I have done a summer training programme which was conducted from 20 June to 30 July in the year 2019 by Webskitters Technology Solutions Pvt. Ltd. Located at Eco Intelligent Park, Unit No- 7E, 7th Floor, Block- EM, Plot-9, Salt LakeSector-5, Kolkata, West Bengal 700091. I was taught basics of Core Java with OOPs and JDBC.</p>
+                <div class="heading bottom">
+                    <a href="images/resume.pdf" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b> Naqi Manzar<br>
+                        <b>Age:</b> 23
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> naqimanzar31@gmail.com<br>
+                        <b>Location:</b> KOLKATA, INDIA
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Education Layout in HTML -->
+    <section class="education" id="education">
+        <div class="heading white">
+            <h2>Education &amp; Qualifications</h2>
+        </div>
+        <div class="content">
+            <div class="educationBx">
+                <h3>Class X</h3> 
+                <p>Jagatdal Shams Urdu High School</p>
+                <p>76.87&#37;</p>
+                <i class="fa fa-calendar">2013</i>       
+                <i class="fa fa-map-marker">Kolkata</i>
+                
+            </div>
+            <div class="educationBx">
+                <h3>Class XII</h3>
+                <p>Kankinara Himayatul Ghurba High School</p>
+                <p>74&#37;</p>
+                <i class="fa fa-calendar">2015</i>       
+                <i class="fa fa-map-marker">Kolkata</i>
+            </div>
+            <div class="educationBx">
+                <h3>BTech</h3>
+                <p>Electronics &amp; Communication Engineering</p>
+                <p>CGPA: 6.66/10</p>
+                <i class="fa fa-calendar">2016-2020</i>
+                <i class="fa fa-map-marker">Aliah University, Kolkata</i>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Project Layout in HTML -->
+
+    <section class="project" id="project">
+        <div class="heading">
+            <h2>Projects</h2>
+        </div>
+        <div class="content">
+            <div class="projectBx">
+                
+             <h3>Medical Store Management System</h3>
+                    <p>This project is done by using Core java. It is a software tool by which we can maintain the pharmacy records. The whole system is made in NetBeans IDE and has a MySQL database as back-end support. The GitHub repository link is given below.</p>
+                <a href="https://www.github.com/Naqi-Manzar/Medical-Store-Management-System" target="_blank">Click Here.</a>
+            </div>
+            
+            <div class="projectBx">
+                
+                    <h3>Health Tracking System Using IoT</h3>
+                    <p>The proposed system consists of sensors and uses the internet to monitor and record patient's health data and medical information The proposed design basically provides a wearable sensor which records different health data and the data can be remotely accessed by the desired person.</p>
+                    <p>The data collected by the sensors are first converted to digital signals using Arduino Uno and the digital data are displayed in the display board and are also sent to a website(a mobile application as  project extension) using the ESP2866 Wi-Fi module.
+                    <br><b>Keywords:- Arduino Uno r3, Monitoring System, Sensors, Cloud, Wi-Fi module.</b>  
+                </p>
+                
+            </div>
+            <div class="projectBx">
+                
+                    <h3>Replica of Twitter Homepage</h3>
+                    <p>It is replica of Twitter Homapage which is done by me using HTML5 &amp; CSS3.</p>
+                    <a href="https://www.github.com/Naqi-Manzar/Replica-of-Twitter-Hompage" target="_blank">Click Here</a>
+            </div>
+            
+            <div class="projectBx">
+                <h3>Tip Calculator</h3>
+                <p>I have also made a tip calculator using javaScript.<a href="https://www.github.com/Naqi-Manzar/Tip-Calculator" target="_blank"> The GitHub repository link</a>. </p>
+                
+            </div>
+
+        </div>
+    </section>
+
+  
+<!-- Creating Training Layout in HTML -->
+   
+    <section class="training" id="training">
+        <div class="heading white">
+            <h2>Training &amp; Certificates</h2>
+            
+        </div>
+        <div class="content">
+            <div class="trainingBx">
+                <p>I have done a summer training programme which was conducted from 20 June to 30 July in the year 2019 by Webskitters Technology Solutions Pvt. Ltd. Located at Eco Intelligent Park, Unit No- 7E, 7th Floor, Block- EM, Plot-9, Salt LakeSector-5, Kolkata, West Bengal 700091. I was taught basics of Core Java with OOPs and JDBC.</p>
+                <b><a href="images/java%20certi.pdf">Click Here</a></b>
+            </div>
+            <div class="trainingBx">
+                <p>I've also done an online course of "HTML, JavaScript, &amp; Bootstrap conducted by <b>Udemy</b>.</p>
+                <b><a href="images/Html,%20javascript%20boot_certi.pdf">Click Here</a></b>
+            </div>
+        </div>
+    </section>        
+
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytimes</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+               
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>25/4, Thana Rd.<br>Jagatdal, 24PGS(N) 743125<br>Kolkata, West Bengal<br>India</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>8240607682</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>naqimanzar31@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://github.com/Naqi-Manzar" target="_blank">
+                                <i class="fa fa-github-square"></i>
+                            </a>
+                        </div>
+                    
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/naqi-manzar-55326219" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://instagram.com/manzaher_?igshid=6mg2p3911ptl" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="">
+                    <input type="email" placeholder="Email" name="">
+                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; 2020, Naqi Manzar</p>
+    </footer>
+</body>
+</html>
